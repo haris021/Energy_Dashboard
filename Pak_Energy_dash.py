@@ -71,7 +71,7 @@ fig.add_trace(go.Scatter(
 fig.add_trace(go.Scatter(
     x=df.Year,
     y=df['Maximum_Load'],
-    name="Maximum_Load"
+    name="Maximum_Demand"
 ))
 fig.update_layout(legend=dict(
     yanchor="top",
