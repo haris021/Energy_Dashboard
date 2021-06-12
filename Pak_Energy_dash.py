@@ -70,7 +70,7 @@ summary_year_value=year_selector
 st.title("Pakistan Energy Dashboard")
 
 st.subheader("Impact of Energy Policies on Energy Mix of Pakistan")
-st.markdown("This is an interactive dashboard that allows users to understand and visualize the energy mix of Pakistan over the last 3 decades to capture the change over time. The users can interact with the map and see the progression and change in the installed and generation capacity to grasp the policy decisions made by successive governments.")
+st.markdown("This is an interactive dashboard that allows users to understand and visualize the energy sector of Pakistan over the last 3 decades to capture the change over time to grasp the policy decisions made by successive governments.")
 #add_select = st.selectbox("What data do you want to see?",("Consu", "Stamen Terrain","Stamen Toner"))
 option = st.radio('Select Summaries:',
                   ['Consumption by Sector','Maximum Demand','Energy Mix','Electricity Generation'])
