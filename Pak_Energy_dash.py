@@ -40,7 +40,7 @@ energy_overview_data=pd.read_excel("energy_overview.xlsx", sheet_name="energy",e
 energy_capacity_data=pd.read_excel("energy_overview.xlsx", sheet_name="capacity",engine='openpyxl')
 energysources=pd.read_excel ("energysources.xlsx",engine='openpyxl')
 energysectors=pd.read_csv("Energy_sectors2.csv")
-energysectors2=pd.read_excel("Energy_sectors2.xlsx", engine='openpyxl')
+
 
 energy_years =  energy_overview_data["Year"].unique().tolist() 
 capacity_years =  energy_capacity_data["Year"].unique().tolist() 
