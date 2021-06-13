@@ -246,7 +246,7 @@ if option=='Consumption by Sector':
 #fig.update_yaxes(title_text='MW')
 #st.write(fig)
 
-
+st.markdown("KEY INSIGHTS in Energy Mix: In **1990**, share of Hydel Energy was **44%**, however policies of successive govenments drastically shifted the energy mix to the point where almost **70%** of all power generation used thermal sources such as furnace oil and gas by year **2000** while Hydel energy was reduced to mere **25%**") 
 st.title('Pakistan Energy Map')
 
 
@@ -265,7 +265,7 @@ st.title('Pakistan Energy Map')
    #        'yanchor': 'top'})
    # st.write(fig)
 
-st.markdown("KEY INSIGHTS in Energy Mix: In **1990**, share of Hydel Energy was **44%**, however policies of successive govenments drastically shifted the energy mix to the point where almost **70%** of all power generation used thermal sources such as furnace oil and gas by year **2000** while Hydel energy was reduced to mere **25%**") 
+
 hydro_grouped_energy_data = list(hydro_energy_data.groupby(["Year"]))
 thermal_grouped_energy_data = list(thermal_energy_data.groupby(["Year"]))
 wind_grouped_energy_data = list(wind_energy_data.groupby(["Year"]))
