@@ -53,7 +53,7 @@ yearslist2=list(dict.fromkeys(years_list2))
 energy_data = list(energy_overview_data.groupby(["Year"]))
 capacity_data = list(energy_capacity_data.groupby(["Year"]))
 
-st.sidebar.subheader("Impact of Energy Policies on Energy Mix of Pakistan")
+st.sidebar.subheader("Impact of Energy Policies on Energy Sector of Pakistan")
 st.sidebar.markdown("This is an interactive dashboard that allows users to understand and visualize the energy sector of Pakistan over the last 3 decades to capture the change over time to grasp the policy decisions made by successive governments.")
 
 
