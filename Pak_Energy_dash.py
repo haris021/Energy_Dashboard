@@ -246,7 +246,7 @@ if option=='Consumption by Sector':
 #fig.update_yaxes(title_text='MW')
 #st.write(fig)
 
-st.markdown("KEY INSIGHTS in Energy Mix: In **1990**, share of Hydel Energy was **44%**, however policies of successive govenments drastically shifted the energy mix to the point where almost **70%** of all power generation used thermal sources such as furnace oil and gas by year **2000** while Hydel energy was reduced to mere **25%**") 
+st.markdown("**KEY INSIGHTS in Energy Sector**: In **1990**, share of Hydel Energy was **44%**, however policies of successive govenments drastically shifted the energy mix to the point where almost **70%** of all power generation used thermal sources such as furnace oil and gas by year **2000** while Hydel energy was reduced to mere **25%**.In addition to this electricity consmuption in domestic sector increased from **48%** in 2003 to **56%** in 2019") 
 st.title('Pakistan Energy Map')
 
 
