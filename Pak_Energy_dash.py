@@ -53,6 +53,11 @@ yearslist2=list(dict.fromkeys(years_list2))
 energy_data = list(energy_overview_data.groupby(["Year"]))
 capacity_data = list(energy_capacity_data.groupby(["Year"]))
 
+st.subheader("Impact of Energy Policies on Energy Mix of Pakistan")
+st.markdown("This is an interactive dashboard that allows users to understand and visualize the energy sector of Pakistan over the last 3 decades to capture the change over time to grasp the policy decisions made by successive governments.")
+
+
+
 
 st.sidebar.subheader("Pakistan Energy mapping")
 st.sidebar.markdown("Users can use this time slider to visualize the power plants progression over time across the country"
@@ -69,8 +74,7 @@ summary_year_value=year_selector
 #add_select = st.sidebar.selectbox("What data do you want to see?",("OpenStreetMap", "Stamen Terrain","Stamen Toner"))
 st.title("Pakistan Energy Dashboard")
 
-st.subheader("Impact of Energy Policies on Energy Mix of Pakistan")
-st.markdown("This is an interactive dashboard that allows users to understand and visualize the energy sector of Pakistan over the last 3 decades to capture the change over time to grasp the policy decisions made by successive governments.")
+
 #add_select = st.selectbox("What data do you want to see?",("Consu", "Stamen Terrain","Stamen Toner"))
 option = st.radio('Select Summaries:',
                   ['Consumption by Sector','Peak Demand','Energy Mix','Electricity Generation'])
