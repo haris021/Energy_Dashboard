@@ -73,7 +73,7 @@ st.subheader("Impact of Energy Policies on Energy Mix of Pakistan")
 st.markdown("This is an interactive dashboard that allows users to understand and visualize the energy sector of Pakistan over the last 3 decades to capture the change over time to grasp the policy decisions made by successive governments.")
 #add_select = st.selectbox("What data do you want to see?",("Consu", "Stamen Terrain","Stamen Toner"))
 option = st.radio('Select Summaries:',
-                  ['Consumption by Sector','Maximum Demand','Energy Mix','Electricity Generation'])
+                  ['Consumption by Sector','Peak Demand','Energy Mix','Electricity Generation'])
 #summary_year_sector = year_selector
 #st.write('You selected:', add_select)
 #st.write('Showing energy data for ', year_selector)
@@ -81,7 +81,7 @@ df=pd.read_excel ("energy_overview.xlsx",engine='openpyxl',sheet_name='capacity'
 #df['Year'] = df.index
 #df_melt = pd.melt(df, id_vars="Year", value_vars=df.columns[1:3])
 #fig=px.line(df_melt, x="Year", y=value_vars,color="variable")
-if option=='Maximum Demand':
+if option=='Peak Demand':
     fig = go.Figure()
 
     fig.add_trace(go.Scatter(
@@ -93,7 +93,7 @@ if option=='Maximum Demand':
     fig.add_trace(go.Scatter(
         x=df.Year,
         y=df['Maximum_Load'],
-        name="Maximum_Demand"
+        name="Peak_Demand"
     ))
     fig.update_layout(legend=dict(
         yanchor="top",
