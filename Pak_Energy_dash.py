@@ -78,7 +78,7 @@ st.title("Pakistan Energy Dashboard")
 #add_select = st.selectbox("What data do you want to see?",("Consu", "Stamen Terrain","Stamen Toner"))
 option = st.selectbox(
      'Select Summaries from Menu',
-     ('Consumption by Sector','Maximum Demand','Energy Mix','Electricity Generation'))
+     ('Consumption by Sector','Peak Demand','Energy Mix','Electricity Generation'))
 #option = st.radio('Select Summaries:',
 #                  ['Consumption by Sector','Peak Demand','Energy Mix','Electricity Generation'])
 #summary_year_sector = year_selector
