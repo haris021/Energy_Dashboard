@@ -407,10 +407,10 @@ if year_selector in nuclear_years:
 
 
 
-url = 'https://www.rethinkingindus.com/'
-st.sidebar.image("logo.png", width=100)
-st.sidebar.markdown("RethinkingIndus")
-st.sidebar.markdown(url)
+#url = 'https://www.rethinkingindus.com/'
+#st.sidebar.image("logo.png", width=100)
+#st.sidebar.markdown("RethinkingIndus")
+#st.sidebar.markdown(url)
 
 
 
