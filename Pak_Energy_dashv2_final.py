@@ -75,7 +75,7 @@ st.sidebar.markdown("This is an interactive dashboard that allows users to under
 #add_select = st.selectbox("What data do you want to see?",("Consu", "Stamen Terrain","Stamen Toner"))
 option = st.selectbox(
      'Select Summaries from Menu',
-     ('Consumption by Sector','Maximum Demand','Energy Mix','Electricity Generation'))
+     ('Consumption by Sector','Maximum Demand vs Generation Capacity','Energy Mix','Electricity Generation'))
 #option = st.selectbox(('Consumption by Sector','Maximum Demand','Energy Mix','Electricity Generation'))
 #option = st.radio('Select Summaries:',
 #                  ['Consumption by Sector','Maximum Demand','Energy Mix','Electricity Generation'])
@@ -86,13 +86,13 @@ df=pd.read_excel ("energy_overview.xlsx",engine='openpyxl',sheet_name='capacity'
 #df['Year'] = df.index
 #df_melt = pd.melt(df, id_vars="Year", value_vars=df.columns[1:3])
 #fig=px.line(df_melt, x="Year", y=value_vars,color="variable")
-if option=='Maximum Demand':
+if option=='Maximum Demand vs Generation Capacity':
     fig = go.Figure()
 
     fig.add_trace(go.Scatter(
         x=df.Year,
         y=df['Generation_Capability'],
-        name="Generation_Capability"
+        name="Generation_Capacity"
     ))
 
     fig.add_trace(go.Scatter(
