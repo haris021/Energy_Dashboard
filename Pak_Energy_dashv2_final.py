@@ -265,7 +265,7 @@ solar_grouped_energy_data = list(solar_energy_data.groupby(["Year"]))
 nuclear_grouped_energy_data = list(nuclear_energy_data.groupby(["Year"]))
 year_value = year_selector
 
-st.subheader('Pakistan PowerPlants Mapping')
+st.subheader('Pakistan Power Plants Mapping')
 
 
 #showing the maps
