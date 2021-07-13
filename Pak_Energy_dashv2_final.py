@@ -246,15 +246,6 @@ if option=='Consumption by Sector':
 #fig.update_xaxes(title_text='Years')
 #fig.update_yaxes(title_text='MW')
 #st.write(fig)
-
-
-st.title('Pakistan Energy Map')
-
-
-
-
-    
-
    
    # fig= px.pie(energysources, values=data, names='Sources')
    # fig.update_layout(
@@ -274,7 +265,7 @@ solar_grouped_energy_data = list(solar_energy_data.groupby(["Year"]))
 nuclear_grouped_energy_data = list(nuclear_energy_data.groupby(["Year"]))
 year_value = year_selector
 
-
+st.title('Pakistan PowerPlants Mapping')
 
 
 #showing the maps
