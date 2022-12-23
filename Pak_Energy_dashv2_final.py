@@ -141,7 +141,7 @@ if option=='Energy Mix':
     width=600,
     height=600,
     title={
-        'text': "Pakistan Energy Mix Share by Sources",
+        'text': "Pakistan Energy Mix Share by Energy generation",
         'y':0.9,
         'x':0.5,
         'xanchor': 'center',
