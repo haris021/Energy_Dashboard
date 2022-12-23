@@ -131,7 +131,7 @@ if option=='Energy Mix':
     #print(energysources.head())
     data = [i.strip('%') for i in data]
     labels = energysources['Sources']
-    colors = ['Blue', '#DC143C', '#228B22', 'violet','#0000FF','cyan','orange','yellow']
+    colors = ['#808080', '#DC143C', '#228B22', 'violet','#0000FF','cyan','orange','yellow']
     fig2 = go.Figure(data=[go.Pie(labels=['Coal','Oil','Natural gas','Nuclear','Hydro','Wind','Biofuels','Solar PV'],
                              values=data)])
     fig2.update_traces(hoverinfo='label+percent', textinfo='value', textfont_size=20,
