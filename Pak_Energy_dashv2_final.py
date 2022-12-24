@@ -201,8 +201,8 @@ if option=='Electricity Generation':
     x = x,
     y = y5,
     stackgroup='one',
-    fillcolor= '#0000FF',
-    fill= '#0000FF'
+    fillcolor= '#0000FF'
+    
    )
 )
     plot3.update_layout(
