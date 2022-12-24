@@ -171,7 +171,8 @@ if option=='Electricity Generation':
     name = 'Coal',
     x = x,
     y = y1,
-    stackgroup='one'
+    stackgroup='one',
+    fillcolor= '#808080'
    ))
       
     plot3.add_trace(go.Scatter(
