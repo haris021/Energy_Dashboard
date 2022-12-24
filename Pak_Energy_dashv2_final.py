@@ -172,6 +172,7 @@ if option=='Electricity Generation':
     x = x,
     y = y1,
     stackgroup='one',
+    opacity= '0.8'
     fillcolor= '#808080'
    ))
       
