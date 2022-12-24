@@ -186,19 +186,22 @@ if option=='Electricity Generation':
     name = 'Natural gas',
     x = x,
     y = y3,
-    stackgroup='one'
+    stackgroup='one',
+    fillcolor='#228B22'
    ))
     plot3.add_trace(go.Scatter(
     name = 'Nuclear',
     x = x,
     y = y4,
-    stackgroup='one'
+    stackgroup='one',
+    fillcolor=  'violet'
    ))
     plot3.add_trace(go.Scatter(
     name = 'Hydro',
     x = x,
     y = y5,
-    stackgroup='one'
+    stackgroup='one',
+    fillcolor= '#0000FF'
    )
 )
     plot3.update_layout(
