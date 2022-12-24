@@ -172,8 +172,8 @@ if option=='Electricity Generation':
     x = x,
     y = y1,
     stackgroup='one',
-    opacity= '0.8',
-    fillcolor= '#808080'
+    fillcolor= '#808080',
+    opacity= '0.8'
    ))
       
     plot3.add_trace(go.Scatter(
