@@ -179,7 +179,8 @@ if option=='Electricity Generation':
     name = 'Oil',
     x = x,
     y = y2,
-    stackgroup='one'
+    stackgroup='one',
+    fillcolor='#DC143C'
    ))
     plot3.add_trace(go.Scatter(
     name = 'Natural gas',
