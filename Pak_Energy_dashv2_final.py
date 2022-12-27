@@ -477,7 +477,7 @@ if option=='Electricity Generation':
     x = x,
     y = y1,
     stackgroup='one',
-    fillcolor= '#808080'
+    fillcolor= "rgba(128,128,128,0.8)"
    
    ))
       
