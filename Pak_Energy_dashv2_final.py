@@ -477,7 +477,7 @@ if option=='Electricity Generation':
     x = x,
     y = y1,
     stackgroup='one',
-    fillcolor= "rgba(128,128,128,0.8)"
+   # fillcolor= "rgba(128,128,128,0.8)"
    
    ))
       
@@ -486,7 +486,7 @@ if option=='Electricity Generation':
     x = x,
     y = y2,
     stackgroup='one',
-    fillcolor="rgba(255,0,0,0.6)"
+   # fillcolor="rgba(255,0,0,0.6)"
    ))
     plot3.add_trace(go.Scatter(
     name = 'Natural gas',
@@ -500,14 +500,14 @@ if option=='Electricity Generation':
     x = x,
     y = y4,
     stackgroup='one',
-    fillcolor= "rgba(0,255,255,0.6)"
+  #  fillcolor= "rgba(0,255,255,0.6)"
    ))
     plot3.add_trace(go.Scatter(
     name = 'Hydro',
     x = x,
     y = y5,
     stackgroup='one',
-    fillcolor= "rgba(0,0,255,0.6)"
+ #   fillcolor= "rgba(0,0,255,0.6)"
     
    )
 )
