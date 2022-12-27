@@ -380,7 +380,7 @@ capacity_data = list(energy_capacity_data.groupby(["Year"]))
 st.title("Pakistan Energy Dashboard")
 
 st.subheader("Impact of Energy Policies on Energy Mix of Pakistan")
-st.markdown("This is an interactive dashboard that allows users to understand and visualize the energy sector of Pakistan over the last 3 decades to capture the change over time.Users can select different options from drop down menu.")
+st.markdown("This is an interactive dashboard that allow users to understand and visualize the energy sector of Pakistan over the last 3 decades to capture the change over time.Users can select different options from drop down menu.")
 #add_select = st.selectbox("What data do you want to see?",("Consu", "Stamen Terrain","Stamen Toner"))
 option = st.selectbox(
      'Select Summaries from Menu',
