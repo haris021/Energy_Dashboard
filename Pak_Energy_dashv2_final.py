@@ -429,15 +429,15 @@ if option=='Maximum Demand':
 if option=='Energy Mix':
     year_selector2 = st.slider("Summary years:", min_value=years_list2[0], max_value=years_list2[len(years_list2)-1] , value = years_list2[0], step=5)
     summary_year_value2=year_selector2
-    energysources['2020'] = ['19.38%','9.86%','33.33%','8.65%','25.59%','2.17%','0.42%','0.60%']
-    energysources['2015'] = ['0.1%','31.80%','31.4%','4.1%','31.1%','0.7%','0.5%','0.2%']
+    #energysources['2020'] = ['19.60%','4.43%','20.64%','33.33%','8.65%','25.59%','2.17%','0.42%','0.60%']
+    #energysources['2015'] = ['0.1%','31.80%','31.4%','4.1%','31.1%','0.7%','0.5%','0.2%']
     data = energysources[str(summary_year_value2)].tolist()
 
     #print(energysources.head())
     data = [i.strip('%') for i in data]
     labels = energysources['Sources']
-    colors = ['#808080', '#DC143C', '#228B22', 'violet','#0000FF','cyan','orange','yellow']
-    fig2 = go.Figure(data=[go.Pie(labels=['Coal','Oil','Natural gas','Nuclear','Hydro','Wind','Biofuels','Solar PV'],
+    colors = ['#808080', '#DC143C', '#800000','#228B22', 'violet','#0000FF','cyan','orange','yellow']
+    fig2 = go.Figure(data=[go.Pie(labels=['Coal','Oil','RLNG','Natural gas','Nuclear','Hydro','Wind','Biofuels','Solar PV'],
                              values=data)])
     fig2.update_traces(hoverinfo='label+percent', textinfo='value', textfont_size=20,
                   marker=dict(colors=colors))
