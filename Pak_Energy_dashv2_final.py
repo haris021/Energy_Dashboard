@@ -523,21 +523,21 @@ if option=='Electricity Generation':
     stackgroup='one',
   #  fillcolor= "rgba(0,255,255,0.6)"
    ))
-     plot3.add_trace(go.Scatter(
+    plot3.add_trace(go.Scatter(
     name = 'Wind',
     x = x,
     y = y7,
     stackgroup='one',
   #  fillcolor= "rgba(0,255,255,0.6)"
    ))
-         plot3.add_trace(go.Scatter(
+    plot3.add_trace(go.Scatter(
     name = 'Solar PV',
     x = x,
     y = y8,
     stackgroup='one',
   #  fillcolor= "rgba(0,255,255,0.6)"
    ))
-             plot3.add_trace(go.Scatter(
+    plot3.add_trace(go.Scatter(
     name = 'Biofuels',
     x = x,
     y = y9,
