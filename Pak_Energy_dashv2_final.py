@@ -374,7 +374,9 @@ capacity_data = list(energy_capacity_data.groupby(["Year"]))
 
 
 
-
+    #url = 'https://www.rethinkingindus.com/'
+st.sidebar.image("logo.png", width=100)
+st.sidebar.markdown("Developed by Haris Mushtaq")
 
 #add_select = st.sidebar.selectbox("What data do you want to see?",("OpenStreetMap", "Stamen Terrain","Stamen Toner"))
 st.title("Pakistan Energy Dashboard")
