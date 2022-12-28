@@ -498,7 +498,7 @@ if option=='Electricity Generation':
     x = x,
     y = y3,
     stackgroup='one',
-    fillcolor="rgba(0,128,0,0.6)"
+  #  fillcolor="rgba(0,128,0,0.6)"
    ))
     plot3.add_trace(go.Scatter(
     name = 'Nuclear',
