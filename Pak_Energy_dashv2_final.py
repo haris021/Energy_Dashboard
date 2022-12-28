@@ -429,8 +429,8 @@ if option=='Maximum Demand':
 if option=='Energy Mix':
     year_selector2 = st.slider("Summary years:", min_value=years_list2[0], max_value=years_list2[len(years_list2)-1] , value = years_list2[0], step=5)
     summary_year_value2=year_selector2
-    #energysources['2020'] = ['19.60%','4.43%','20.64%','33.33%','8.65%','25.59%','2.17%','0.42%','0.60%']
-    #energysources['2015'] = ['0.1%','31.80%','31.4%','4.1%','31.1%','0.7%','0.5%','0.2%']
+    energysources['2020'] = ['19.60%','4.43%','20.64%','17.25%','7.76%','27.17%','2.03%','0.50%','0.64%']
+    energysources['2015'] = ['0.1%','24.37%','7.95%','28.23%','4.1%','33.99%','0.7%','0.27%','0.2%']
     data = energysources[str(summary_year_value2)].tolist()
 
     #print(energysources.head())
