@@ -469,6 +469,7 @@ if option=='Electricity Generation':
     y3=df['Natural gas']
     y4=df['Nuclear']
     y5=df['Hydro']
+    y6=df['RLNG']
 
     plot3 = px.Figure()
   
@@ -502,6 +503,7 @@ if option=='Electricity Generation':
     stackgroup='one',
   #  fillcolor= "rgba(0,255,255,0.6)"
    ))
+    
     plot3.add_trace(go.Scatter(
     name = 'Hydro',
     x = x,
@@ -511,6 +513,13 @@ if option=='Electricity Generation':
     
    )
 )
+    plot3.add_trace(go.Scatter(
+    name = 'RLNG',
+    x = x,
+    y = y6,
+    stackgroup='one',
+  #  fillcolor= "rgba(0,255,255,0.6)"
+   ))
     plot3.update_layout(
     autosize=False,
     width=800,
