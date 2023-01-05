@@ -447,7 +447,7 @@ if option=='Energy Mix':
     width=600,
     height=600,
     title={
-        'text': "Pakistan Energy Generation Mix",
+        'text': "Pakistan Electricity Generation Mix",
         'y':0.9,
         'x':0.5,
         'xanchor': 'center',
